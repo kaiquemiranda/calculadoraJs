@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    flex-direction: column;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-image: url(calculus.jpg);
+}
+
+.header {
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 100%;
+}
+
+.menu {
+    background-color: #0000008a;
+    text-align:center;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: flex-start;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 100px;
+}
+
+.menu ul li a:hover {
+    background-color: #4e4c4c;
+}
+
+.titulo {
+    padding: 20px 10px 0px 10px;
+    font-size: 30px;
+}
+
+.container {
+    flex-direction: column;
+    padding: 50px 20px 100px 20px;
+    display: flex;  
+    background-color: rgba(7, 7, 7, 0.959);
+    color: rgb(245, 245, 245);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 20px;
+
+}
+
+.display {
+    font-size: 3em;
+    width: 96%;
+    text-align: right;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    height: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    background: #fff;
+}
+
+.btn:hover {
+    background:rgb(85, 84, 84)
+}
+
+.copyright {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: blanchedalmond;
+}
